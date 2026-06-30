@@ -1,55 +1,29 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Day1</title>
-    </head>
-    <body>
-        <main>
-            <h1>Day 1</h1>
-            <p>Day 1, learning to become a front-end developer !</p>
-            <a href="https://imgur.com/a/uYrQ5L2" target="_blank">
-                <figure>
-                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.ueaSPygNnTmCQMfyxAxhZQHaEo%3Fpid%3DApi&f=1&ipt=c234f6d15f5f59e5bde5b4901a0187e396eefdc297d9edb39b37a8135078c080&ipo=images" alt="html completed !">
-                    <figcaption>HTML Completed !</figcaption>
-                </figure>
-            </a>
-        </main>
-        <section>
-            <h2>Lists</h2>
-            <h3>Unordered List</h3>
-            <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
-            <h3>Ordered List</h3>
-            <ol>
-                <li>*</li>
-                <li>**</li>
-                <li>***</li>
-            </ol>
-        </section>
-        <section>
-            <form action="someware">
-                <fieldset>
-                    <legend>Are you a <em>Front-end</em> Developer ?</legend>
-                    <label><input checked id="yes" type="radio" value="yes" name="yes or no"> Yes</label>
-                    <label><input id="no" type="radio" value="no" name="yes or no"> No</label>
-                    <input type="text" name="resourse_url" id="resourse_url" placeholder="learning resourses">
-                    <button type="submit">Submit</button>
-                </fieldset>
-                <fieldset>
-                    <legend>What <strong>languages</strong> do you know ?</legend>
-                    <input checked id="html" type="checkbox" name="languages"> <label for="python">HTML</label>
-                    <input id="css" type="checkbox" name="languages"> <label for="css">CSS</label>
-                    <input id="java" type="checkbox" name="languages"> <label for="java">Java</label>
-                </fieldset>
-            </form>
-        </section>
-        <footer>
-            <p>Copyright - <a href="https://github.com/MrInfinitygg">Mr.Infinity♾️</a></p>
-        </footer>
-    </body>
-
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting Card</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="card" id="greeting-card">
+      <h1>Happy Birthday!</h1>
+      <p class="message">
+        Wishing you all the happiness and joy on your special day!
+      </p>
+      <div class="card-links">
+        <a href="#send" class="send-link">Send Card</a>
+        <a href="#share" class="share-link">Share on Social Media</a>
+      </div>
+  	</div>
+    <section id="send">
+      <h2>Sending your card...</h2>
+      <p>Card successfully sent to your recipient!</p>
+    </section>
+    <section id="share">
+      <h2>Sharing your card...</h2>
+      <p>Your card was shared on social media!</p>
+    </section>
+  </body>
 </html>
